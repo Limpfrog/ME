@@ -1,0 +1,21 @@
+Package: ME
+Title: Molecular Evolution
+Version: 0.0.0.9000
+Author: Ali Amiryousefi <ali.amiryousefi@helsinki.fi>
+Description: This package provides primary tools for dealing with the genetic
+    data from the evolutionary perspective. The package is initially designed
+    for the plastid genomes of the virdiplantae but its use maybe extended to
+    other data with caution.
+Depends:
+    R (>= 3.0.2),
+    ape,
+    seqinr
+License: University of Helsinki
+LazyData: true
+Collate:
+    'AbsPreGram.R'
+    'Gw2Sw.R'
+    'blastReport-class.r'
+    'blastparser.R'
+    'coursepackage.R'
+    'nucl_nearest.R'
